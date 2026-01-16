@@ -2,8 +2,13 @@
 
 Este projeto tem como objetivo o desenvolvimento de um sistema para gerenciar alunos, cursos, matrículas, notas e usuários em uma instituição de ensino, com acesso segmentado por perfis (Aluno, Professor, Funcionário e Administrador).
 
-Projeto de A3 da UNP, utilizando modelagem UML (PlantUML), implementação em Java e integração com banco de dados SQL. O design da interface foi desenvolvido com auxílio do Figma.
-
+Projeto utilizando modelagem UML (PlantUML), implementação em Java e integração com banco de dados SQL(MySQL). O design da interface foi desenvolvido com auxílio do Figma.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Logo Java">
+  <img src="https://img.shields.io/badge/UML-PlantUML-FF69B4?style=for-the-badge&logo=plantuml&logoColor=white" alt="Logo PlantUML">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Logo Figma">
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="Logo MySQL">
+</p>
 ---
 
 ## ✅ Requisitos Funcionais (RF)

@@ -1,4 +1,4 @@
-package sistemacadastroacademia.util;
+package CadastrodeAluno.util;
 
 import java.sql.Connection;       // conexão ativa com o banco.
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ public class Database {
 
 
      // "localhost:3306" MySQL está nessa maquina (localhost) na porta 3306.
-     private static final String DB_URL = "jdbc:mysql://localhost:3306/SistemaCadastroAcademia?useTimezone=true&serverTimezone=UTC";
+     private static final String DB_URL = "jdbc:mysql://localhost:3306/cadastrodealuno?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
      private static final String USER = "root";
      private static final String PASS = "admin";
 

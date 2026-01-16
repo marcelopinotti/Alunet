@@ -25,7 +25,6 @@ class Aluno {
   --
   + autenticarSe(login: String, senha: String): boolean
   + atualizarPropriosDados(novosDados: AlunoData)
-  + consultarProprioHistorico(): List<HistoricoAcademico>
   + consultarPropriasNotas(): List<Nota>
 }
 
@@ -46,12 +45,12 @@ class Funcionario {
   + consultarCursos(): List<Curso>
   + atualizarDadosCurso(cursoID: int, novosDados: CursoData)
   + excluirCurso(cursoID: int)
-  + gerarRelatoriosAcademicos(tipoRelatorio: String): Object 
+  + gerarRelatoriosAcademicos(tipoRelatorio: String): List<String> 
 }
 
 class Administrador extends Funcionario {
   + cadastrarNovoFuncionario(dadosFunc: FuncionarioData): Funcionario
-  + consultarListarFuncionarios(): List<Funcionario>
+  + listarFuncionarios(): List<Funcionario>
   + editarDadosFuncionario(funcionarioID: int, novosDados: FuncionarioData)
   + alternarStatusFuncionario(funcionarioID: int, status: boolean)
   + associarProfessorAoCurso(professorID: int, cursoID: int)
